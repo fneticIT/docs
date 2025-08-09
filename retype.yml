@@ -1,5 +1,11 @@
 input: .
 output: .retype
+theme:
+  base:
+    base-color: "#8839ef"
+    base-bg: "#eff1f5"
+    base-link-weight: 500
+    image-rounded: 0.75rem
 url: docs.fnetic.pl
 favicon: /static/favicon.ico
 meta:
