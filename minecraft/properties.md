@@ -1,2 +1,2 @@
 # KONFIGURACJA USTAWIEŃ SERWERA
-Konfiguracja serwera w pliku jest męcząca i czasochłona? Musisz przechodzić do katalogu i pliku, zapisywać itp. Już teraz nie! Nasi specjaliści wprowadzili konfigurację pliku server.properties w panelu jako przyjazny interfejs
+Koniec z uciążliwą konfiguracją pliku ```**server.properties**``` – dzięki naszym specjalistom nie musisz już za każdym razem przechodzić do katalogu, otwierać pliku, wprowadzać zmian i zapisywać, ponieważ wszystkie ustawienia serwera możesz teraz szybko i wygodnie edytować bezpośrednio w przejrzystym interfejsie użytkownika, bez zbędnej straty czasu.
