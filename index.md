@@ -1,6 +1,6 @@
-icon
-home
-
+---
+icon: home
+---
 # FNETIC.CLOUD - BAZA WIEDZY
 
 ### Z NAMI ZAWSZE W DOBRYM KIERUNKU!
