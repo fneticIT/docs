@@ -1,5 +1,7 @@
 input: .
 output: .retype
+start
+  pro: true
 theme:
   base:
     base-color: "#8839ef"
@@ -12,7 +14,7 @@ meta:
   title: " - FNetic"
 branding:
   title: FNetic.pl
-  label: Documentation v0.1
+  label: Docs v0.1
 links:
 - text: Strona główna
   link: https://fnetic.pl/
