@@ -1,5 +1,3 @@
-start
-  pro: true
 input: .
 output: .retype
 theme:
