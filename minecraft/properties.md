@@ -1,4 +1,4 @@
-<img width="739" height="316" alt="image" src="https://github.com/user-attachments/assets/6729b2be-73a1-4ec6-af76-8414aa1c8611" /># KONFIGURACJA USTAWIEŃ SERWERA
+# KONFIGURACJA USTAWIEŃ SERWERA
 Koniec z uciążliwą konfiguracją pliku ```server.properties``` – dzięki naszym specjalistom nie musisz już za każdym razem przechodzić do katalogu, otwierać pliku, wprowadzać zmian i zapisywać, ponieważ wszystkie ustawienia serwera możesz teraz szybko i wygodnie edytować bezpośrednio w przejrzystym interfejsie użytkownika, bez zbędnej straty czasu.
 
 ## JAK SKONFIGUROWAĆ SWÓJ SERWER?
