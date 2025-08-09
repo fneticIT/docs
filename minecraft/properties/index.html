@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808088355593">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808088637167">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>KONFIGURACJA USTAWIEŃ SERWERA - FNetic</title>
     <meta name="title" content="KONFIGURACJA USTAWIEŃ SERWERA - FNetic">
+    <meta name="description" content="<!doctype html>">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.fnetic.pl/minecraft/properties/">
@@ -19,19 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.fnetic.pl/minecraft/properties/">
     <meta property="og:title" content="KONFIGURACJA USTAWIEŃ SERWERA - FNetic">
+    <meta property="og:description" content="<!doctype html>">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.fnetic.pl/minecraft/properties/">
     <meta property="twitter:title" content="KONFIGURACJA USTAWIEŃ SERWERA - FNetic">
+    <meta property="twitter:description" content="<!doctype html>">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.808088355593" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.808088637167" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808088355593" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808088637167" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808088355593" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808088637167" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -220,6 +223,207 @@
         <span>KONFIGURACJA USTAWIEŃ SERWERA</span>
     </h1>
 </doc-anchor-target>
+<p>&lt;!doctype html&gt;</p>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dokumentacja — Ustawienia serwera (Properties) • Minecraft</title>
+  <meta name="description" content="Czytelna dokumentacja online ustawień serwera Minecraft: opis opcji w panelu Properties, zalecenia konfiguracyjne i linki do źródeł." />
+  <style>
+    :root{
+      --bg:#0b1020; --panel:#141a2e; --muted:#97a3b6; --txt:#e6ecf6; --pri:#4e8cff; --ok:#20c997; --warn:#ffb020; --bad:#ff6b6b; --br:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--txt);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    a{color:var(--pri);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{display:flex;gap:18px;align-items:center;justify-content:space-between;margin-bottom:18px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--pri),#8ca8ff)}
+    h1{font-size:clamp(22px,2.6vw,34px);margin:0}
+    .card{background:var(--panel);border-radius:var(--br);padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.05)}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:900px){.grid{grid-template-columns:1.1fr .9fr}}
+    h2{margin:0 0 10px;font-size:22px}
+    h3{margin:18px 0 8px;font-size:18px}
+    .muted{color:var(--muted)}
+    .kbd{font:600 12px/1.2 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;padding:2px 6px;border-radius:6px;background:#0f1426;border:1px solid rgba(255,255,255,.06)}
+    .toc{display:flex;flex-wrap:wrap;gap:8px}
+    .toc a{padding:8px 10px;border-radius:10px;background:#0f1426;border:1px solid rgba(255,255,255,.06)}
+    table{width:100%;border-collapse:separate;border-spacing:0}
+    th,td{padding:12px 14px;vertical-align:top}
+    thead th{position:sticky;top:0;background:#0f1426;border-bottom:1px solid rgba(255,255,255,.12);z-index:1}
+    tbody tr{border-bottom:1px solid rgba(255,255,255,.06)}
+    tbody tr:hover{background:rgba(255,255,255,.03)}
+    .badge{display:inline-flex;align-items:center;gap:6px;padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.12);font-size:12px}
+    .b-ok{background:rgba(32,201,151,.12);border-color:rgba(32,201,151,.35)}
+    .b-warn{background:rgba(255,176,32,.12);border-color:rgba(255,176,32,.35)}
+    .b-bad{background:rgba(255,107,107,.12);border-color:rgba(255,107,107,.35)}
+    .code{background:#0f1426;border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:12px;overflow:auto}
+    .footer{margin-top:24px;color:var(--muted);font-size:14px}
+    .small{font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>Dokumentacja — Ustawienia serwera <span class="muted">(sekcja <em>Properties</em>)</span></h1>
+          <div class="small muted">Produkt: Minecraft (silniki: Vanilla / Spigot / Paper / modpacki zgodne z <code>server.properties</code>)</div>
+        </div>
+      </div>
+      <div class="badge">Wersja dokumentu: 1.0</div>
+    </header>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">&lt;div class=&quot;grid&quot;&gt;
+  &lt;section class=&quot;card&quot;&gt;
+    &lt;h2&gt;Spis treści&lt;/h2&gt;
+    &lt;nav class=&quot;toc&quot; aria-label=&quot;Spis treści&quot;&gt;
+      &lt;a href=&quot;#opis-opcji&quot;&gt;Opis opcji&lt;/a&gt;
+      &lt;a href=&quot;#zalecenia&quot;&gt;Zalecenia wg typu serwera&lt;/a&gt;
+      &lt;a href=&quot;#faq&quot;&gt;FAQ&lt;/a&gt;
+      &lt;a href=&quot;#linki&quot;&gt;Linki i źródła&lt;/a&gt;
+      &lt;a href=&quot;#zmiany&quot;&gt;Historia zmian&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;card&quot;&gt;
+    &lt;h2&gt;Streszczenie&lt;/h2&gt;
+    &lt;p&gt;Ta strona dokumentuje kluczowe ustawienia z panelu &lt;strong&gt;Properties&lt;/strong&gt; serwera Minecraft. Każda opcja ma opis funkcjonalny, spodziewany wpływ na rozgrywkę oraz typowe wartości. Konfiguracja jest zgodna z konwencją pliku &lt;span class=&quot;kbd&quot;&gt;server.properties&lt;/span&gt; wykorzystywaną przez większość dystrybucji serwerowych.&lt;/p&gt;
+    &lt;p class=&quot;muted small&quot;&gt;Uwaga: nazwy w interfejsie panelu mogą różnić się w zależności od hostingu lub nakładki administracyjnej. Poniższe opisy odnoszą się do standardowego zachowania silnika gry.&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/div&gt;
+
+&lt;section id=&quot;opis-opcji&quot; class=&quot;card&quot; aria-labelledby=&quot;h-opis&quot;&gt;
+  &lt;h2 id=&quot;h-opis&quot;&gt;Opis opcji&lt;/h2&gt;
+  &lt;div class=&quot;small muted&quot; style=&quot;margin-bottom:8px&quot;&gt;Kolumny: nazwa w panelu • typ danych • dopuszczalne wartości • opis działania&lt;/div&gt;
+  &lt;div class=&quot;code small&quot; aria-hidden=&quot;true&quot;&gt;Przykład w pliku server.properties: &lt;br&gt; &lt;code&gt;allow-flight=false&lt;/code&gt;&lt;/div&gt;
+  &lt;div style=&quot;overflow:auto&quot;&gt;
+    &lt;table role=&quot;table&quot; aria-label=&quot;Tabela opcji&quot;&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th scope=&quot;col&quot;&gt;Nazwa opcji&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Typ&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Wartości&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Opis działania&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Accepts Transfers&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Boolean&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&quot;kbd&quot;&gt;Enabled&lt;/span&gt; / &lt;span class=&quot;kbd&quot;&gt;Disabled&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Pozwala przyjmować graczy przenoszonych z innych serwerów (proxy: BungeeCord/Velocity). &lt;em&gt;Disabled&lt;/em&gt; — blokuje takie połączenia.
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Allow Flight&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Boolean&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&quot;kbd&quot;&gt;Enabled&lt;/span&gt; / &lt;span class=&quot;kbd&quot;&gt;Disabled&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Umożliwia latanie w trybie Survival bez automatycznego wyrzucenia za podejrzenie cheatów. Przy &lt;em&gt;Disabled&lt;/em&gt; gracze mogą być wyrzucani podczas lotu (z wyjątkiem legalnych mechanik, np. elytra).&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Allow Nether&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Boolean&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&quot;kbd&quot;&gt;Enabled&lt;/span&gt; / &lt;span class=&quot;kbd&quot;&gt;Disabled&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Włącza/wyłącza świat Nether. &lt;em&gt;Disabled&lt;/em&gt; — portale nie działają.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Broadcast Console To Ops&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Boolean&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&quot;kbd&quot;&gt;Enabled&lt;/span&gt; / &lt;span class=&quot;kbd&quot;&gt;Disabled&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Wysyła komunikaty z konsoli serwera na czat graczy z rangą OP. Może powodować „szum” informacyjny przy wielu pluginach.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Broadcast RCON To Ops&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Boolean&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&quot;kbd&quot;&gt;Enabled&lt;/span&gt; / &lt;span class=&quot;kbd&quot;&gt;Disabled&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Pokazuje na czacie OP polecenia uruchamiane przez RCON (zdalne zarządzanie). Przy serwerach publicznych często &lt;em&gt;Disabled&lt;/em&gt; ze względów czytelności.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Bug Report Link&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;URL (tekst)&lt;/td&gt;
+          &lt;td&gt;np. &lt;span class=&quot;kbd&quot;&gt;https://twoj-serwer.example/bug&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Adres do zgłaszania błędów (formularz, Discord, GitHub Issues). Puste — brak centralnego kanału zgłoszeń.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Difficulty&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Enum&lt;/td&gt;
+          &lt;td&gt;&lt;span class=&quot;kbd&quot;&gt;Peaceful&lt;/span&gt;, &lt;span class=&quot;kbd&quot;&gt;Easy&lt;/span&gt;, &lt;span class=&quot;kbd&quot;&gt;Normal&lt;/span&gt;, &lt;span class=&quot;kbd&quot;&gt;Hard&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Poziom trudności: wpływa na generowanie i siłę mobów, głód, obrażenia i regenerację.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;zalecenia&quot; class=&quot;card&quot; aria-labelledby=&quot;h-zalecenia&quot;&gt;
+  &lt;h2 id=&quot;h-zalecenia&quot;&gt;Zalecenia wg typu serwera&lt;/h2&gt;
+  &lt;div class=&quot;grid&quot; style=&quot;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px&quot;&gt;
+    &lt;div class=&quot;card&quot; style=&quot;padding:14px&quot;&gt;
+      &lt;h3&gt;Survival&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class=&quot;badge b-warn&quot;&gt;Allow Flight: Disabled&lt;/span&gt; — antycheat ma mniej fałszywych alarmów.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;badge b-ok&quot;&gt;Allow Nether: Enabled&lt;/span&gt; — pełna eksploracja.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;badge b-ok&quot;&gt;Difficulty: Normal/Hard&lt;/span&gt; — większe wyzwanie.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card&quot; style=&quot;padding:14px&quot;&gt;
+      &lt;h3&gt;Creative / Build&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class=&quot;badge b-ok&quot;&gt;Allow Flight: Enabled&lt;/span&gt; — swobodne latanie.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;badge&quot;&gt;Allow Nether: opcjonalnie Disabled&lt;/span&gt; — mniej światów do utrzymania.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;badge&quot;&gt;Difficulty: Peaceful&lt;/span&gt; — brak mobów i głodu.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card&quot; style=&quot;padding:14px&quot;&gt;
+      &lt;h3&gt;Event / Mini‑gry&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class=&quot;badge&quot;&gt;Allow Nether: zależnie od mapy&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;badge&quot;&gt;Allow Flight: wg mechanik&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;badge b-warn&quot;&gt;Broadcast Console/RCON: zwykle Disabled&lt;/span&gt; — mniej spamu.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;faq&quot; class=&quot;card&quot; aria-labelledby=&quot;h-faq&quot;&gt;
+  &lt;h2 id=&quot;h-faq&quot;&gt;FAQ&lt;/h2&gt;
+  &lt;h3&gt;Czy &lt;em&gt;Allow Flight&lt;/em&gt; jest wymagane dla Elytry?&lt;/h3&gt;
+  &lt;p&gt;Nie — Elytra to legalna mechanika. Jednak niektóre antycheaty mogą wymagać wyjątków; testuj na swoim zestawie pluginów.&lt;/p&gt;
+  &lt;h3&gt;Co daje &lt;em&gt;Accepts Transfers&lt;/em&gt; na serwerze solo?&lt;/h3&gt;
+  &lt;p&gt;Na serwerze bez proxy zwykle pozostaje &lt;em&gt;Disabled&lt;/em&gt;. W sieciach wielu serwerów ustaw &lt;em&gt;Enabled&lt;/em&gt; dla poprawnych transferów graczy.&lt;/p&gt;
+  &lt;h3&gt;Czy wyłączenie &lt;em&gt;Broadcast Console to Ops&lt;/em&gt; ukryje błędy pluginów?&lt;/h3&gt;
+  &lt;p&gt;Wiadomości nie znikają — nadal są w konsoli/logach. Opcja steruje tylko tym, co widzą operatorzy w grze.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;linki&quot; class=&quot;card&quot; aria-labelledby=&quot;h-linki&quot;&gt;
+  &lt;h2 id=&quot;h-linki&quot;&gt;Linki i źródła&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://minecraft.fandom.com/wiki/Server.properties&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Oficjalne pola pliku &lt;code&gt;server.properties&lt;/code&gt; — Fandom Wiki&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://wiki.vg/RCON&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RCON — opis protokołu (wiki.vg)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.spigotmc.org/wiki/bungeecord/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;BungeeCord — dokumentacja (Spigot)&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;zmiany&quot; class=&quot;card&quot; aria-labelledby=&quot;h-zmiany&quot;&gt;
+  &lt;h2 id=&quot;h-zmiany&quot;&gt;Historia zmian&lt;/h2&gt;
+  &lt;ul class=&quot;small&quot;&gt;
+    &lt;li&gt;&lt;strong&gt;1.0&lt;/strong&gt; — pierwsza wersja: opis opcji z panelu, rekomendacje, FAQ i źródła.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;footer class=&quot;footer&quot;&gt;
+  Przygotowano do publikacji online (wiki / GitHub Pages). Możesz skopiować ten plik jako &lt;span class=&quot;kbd&quot;&gt;properties-doc.html&lt;/span&gt; i hostować statycznie.
+&lt;/footer&gt;</code></pre>
+</doc-codeblock></div>
+  </div>
+</body>
+</html>
 
                                 
                                 <!-- Required only on API pages -->
