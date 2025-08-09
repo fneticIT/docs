@@ -1,0 +1,33 @@
+input: .
+output: .retype
+url: docs.fnetic.pl
+favicon: /static/favicon.ico
+meta:
+  title: " - FNetic"
+branding:
+  title: FNetic.pl
+  label: Documentation v0.1
+links:
+- text: Strona główna
+  link: https://fnetic.pl/
+  target: blank
+  icon: home
+- text: Panel klienta
+  link: https://client.fnetic.pl/
+  target: blank
+  icon: command-palette
+- text: Discord
+  link: https://dc.fnetic.pl/
+  target: blank
+  icon: comment-discussion
+exclude:
+  - "README.md"
+edit:
+  repo: "https://github.com/fneticIT/docs"
+  branch: main
+  label:  Edytuj na GitHub
+search:
+  noResultsFoundMsg: Nie znaleziono.
+  placeholder: Szukaj
+footer:
+  copyright: "FNetic.pl® &copy; {{ year }}. Wszelkie prawa zastrzeżone."
