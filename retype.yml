@@ -1,7 +1,7 @@
-input: .
-output: .retype
 start
   pro: true
+input: .
+output: .retype
 theme:
   base:
     base-color: "#8839ef"
