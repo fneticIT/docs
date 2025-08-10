@@ -21,5 +21,6 @@ Po zlokalizowaniu wybranej funkcji dokonujemy jej modyfikacji w moim przypadku b
 <img width="1601" height="352" alt="image" src="https://github.com/user-attachments/assets/51a03df4-ad92-422b-84e1-172f1d6e7ffd" /><br>
 
 
-> [!SUCCESS]
-> Gotowe! Udało Ci się poprawnie skonfigurować swój serwer.
+!!!success Gratulację!
+Poprawnie skonfigurowałeś ustawienia swojego serwera!
+!!!
