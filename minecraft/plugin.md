@@ -23,3 +23,7 @@ W wyświetlonym oknie z rozwijanej listy wybieramy odpowiednią wersję pluginu,
 <img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/df409f1d-692e-42b0-933f-57a9b8e56fcb" /><br>
 
 Po wybraniu przycisku Install i zakończeniu procesu instalacyjnego restartujemy serwer – i gotowe, wtyczka jest już zainstalowana.
+
+!!!success Gratulację!
+Plugin został pomyślnie zainstalowany. Teraz możesz w pełni korzystać z jego funkcjonalności na swoim serwerze.
+!!!
