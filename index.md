@@ -1,5 +1,5 @@
 ---
-icon: home
+icon: repo-template
 ---
 **Z NAMI ZAWSZE W DOBRYM KIERUNKU!**
 
