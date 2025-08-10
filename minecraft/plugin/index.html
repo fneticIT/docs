@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808155176555">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808155400143">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.808155176555" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.808155400143" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808155176555" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808155400143" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808155176555" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808155400143" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -224,10 +224,10 @@
     </h1>
 </doc-anchor-target>
 <p>Chcesz zagrać ze znajomymi na serwerze z pluginami? Dzięki naszemu rozwiązaniu możesz w prosty i szybki sposób uruchomić serwer z wybranymi pluginami, bez zbędnych komplikacji.</p>
-<doc-anchor-target id="jak-zainstalować-plugin-na-seerwerze">
+<doc-anchor-target id="jak-zainstalować-plugin-na-serwerze">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#jak-zainstalować-plugin-na-seerwerze">#</doc-anchor-trigger>
-        <span>JAK ZAINSTALOWAĆ PLUGIN NA SEERWERZE?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#jak-zainstalować-plugin-na-serwerze">#</doc-anchor-trigger>
+        <span>JAK ZAINSTALOWAĆ PLUGIN NA SERWERZE?</span>
     </h2>
 </doc-anchor-target>
 <p>Instalację można przeprowadzić za pomocą wbudowanego instalatora wtyczek.
@@ -236,13 +236,17 @@ W tym celu należy zalogować się do panelu zarządzania serwerem pod adresem <
 <p>Po wybraniu odpowiedniego serwera przechodzimy do zakładki <code v-pre>Plugins</code> i wskazujemy wtyczkę, którą chcemy zainstalować.
 W naszym przykładzie będzie to <code v-pre>LuckPerms</code> – plugin umożliwiający zarządzanie rangami, uprawnieniami oraz innymi aspektami dostępu na serwerze.</p>
 <p><img width="540" height="304" alt="Zrzut ekranu 2025-08-10 171147" src="https://github.com/user-attachments/assets/b666c682-9a29-46a3-99c5-23502e1643b4" /><br></p>
-<p>Po wybraniu wtyczki klikamy przycisk <code v-pre>Select Version</code>.
+<p>Po wybraniu wtyczki klikamy przycisk <button class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-button-base hover:bg-button-base-hover text-button-base-text px-4 h-10 text-sm rounded-md">
+    <span>Select Version</span>
+</button>.
 W wyświetlonym oknie z rozwijanej listy wybieramy odpowiednią wersję pluginu, a następnie klikamy
 <button class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-button-base hover:bg-button-base-hover text-button-base-text px-4 h-10 text-sm rounded-md">
     <span>Install</span>
 </button>, aby rozpocząć instalację.</p>
 <p><img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/df409f1d-692e-42b0-933f-57a9b8e56fcb" /><br></p>
-<p>Po wybraniu przycisku Install i zakończeniu procesu instalacyjnego restartujemy serwer – i gotowe, wtyczka jest już zainstalowana.</p>
+<p>Po wybraniu przycisku <button class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-button-base hover:bg-button-base-hover text-button-base-text px-4 h-10 text-sm rounded-md">
+    <span>Install</span>
+</button> i zakończeniu procesu instalacyjnego restartujemy serwer – i gotowe, wtyczka jest już zainstalowana.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-success"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
