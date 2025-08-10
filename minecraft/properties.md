@@ -7,7 +7,7 @@ Koniec z uciążliwą konfiguracją pliku ```server.properties``` – dzięki na
 ## JAK SKONFIGUROWAĆ SWÓJ SERWER?
 Po aktywacji usługi przechodzimy na stronę https://ptero.fnetic.pl/ i z listy wybieramy usługę, którą chcemy skonfigurować.
 
-<img width="786" height="361" alt="image" src="https://github.com/user-attachments/assets/7849fe2f-4d00-465b-b2f2-40365675aa19" />
+<img width="784" height="361" alt="image" src="https://github.com/user-attachments/assets/7849fe2f-4d00-465b-b2f2-40365675aa19" />
 
 Następnie otwieramy zakładkę ```Properties``` i w polu wyszukiwania wpisujemy nazwę funkcji, którą chcemy dostosować.
 
