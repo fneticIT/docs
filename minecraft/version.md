@@ -12,5 +12,5 @@ Zmiana wersji gry wiąże się z utratą lub nadpisaniem wszystkich dotychczasow
 
 !!!warning
 Pamiętaj, aby przy zmianie wersji serwera zweryfikować, czy została ustawiona właściwa wersja Javy.
-W celu jej zmiany przejdź do zakładki „Uruchamianie”, a następnie z menu rozwijanego Obraz Dockera wskaż docelową wersję, którą chcesz zastosować.
+W celu jej zmiany przejdź do zakładki ```Uruchamianie```, a następnie z menu rozwijanego ```Obraz Dockera``` wskaż docelową wersję, którą chcesz zastosować.
 !!!
