@@ -19,7 +19,7 @@ Po otwarciu panelu wybranego serwera przechodzimy do zakładki ```Subdomains```,
 
 Po wyświetleniu okna tworzenia subdomeny należy wypełnić wszystkie pola odpowiednimi danymi.
 
-<img width="1442" height="617" alt="image" src="https://github.com/user-attachments/assets/84e1544a-927b-42fd-8534-d477417d73dc" />
+<img width="1442" height="617" alt="image" src="https://github.com/user-attachments/assets/84e1544a-927b-42fd-8534-d477417d73dc" /><br>
 
 ```Subdomain``` - tutaj podajemy nazwę za pomocą której będziemy się łączyć z naszym serwerem przykładowo FNETIC.
 
