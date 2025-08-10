@@ -1,6 +1,6 @@
 ---
 title: ZMIANA WERSJI SERWERA
-icon: sync
+icon: versions
 ---
 
 Jeżeli planujesz rozpocząć rozgrywkę na serwerze, ale jego obecna wersja nie spełnia Twoich oczekiwań, skorzystaj z tego poradnika.
@@ -29,7 +29,7 @@ Zachęcamy do zapoznania się z pełną listą dostępnych wersji gry przed podj
 
 <img width="1584" height="633" alt="image" src="https://github.com/user-attachments/assets/7b1ae8e8-0b36-471b-9025-3fcedde1be88" /><br>
 
-Po wybraniu wersji przeznaczonej do instalacji zaznaczamy opcję w sekcji „Danger zone”, potwierdzając zgodę na usunięcie wszystkich dotychczasowych plików serwera i instalację nowej wersji.
+Po wybraniu wersji przeznaczonej do instalacji zaznaczamy opcję w sekcji ```Danger zone```, potwierdzając zgodę na usunięcie wszystkich dotychczasowych plików serwera i instalację nowej wersji.
 Następnie klikamy [!button variant="base" text="Install"] – i gotowe.
 
 !!!success Gratulację!
