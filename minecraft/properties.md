@@ -7,12 +7,11 @@ Koniec z uciążliwą konfiguracją pliku ```server.properties``` – dzięki na
 ## JAK SKONFIGUROWAĆ SWÓJ SERWER?
 Po aktywacji usługi przechodzimy na stronę https://ptero.fnetic.pl/ i z listy wybieramy usługę, którą chcemy skonfigurować.
 
-![82d33ca6-93b1-4d7f-bc85-5195eaa6115e](https://github.com/user-attachments/assets/88aa16e8-85fe-4426-9e6e-0e0add4f9159)
+(https://github.com/user-attachments/assets/88aa16e8-85fe-4426-9e6e-0e0add4f9159)
 
 Następnie otwieramy zakładkę ```Properties``` i w polu wyszukiwania wpisujemy nazwę funkcji, którą chcemy dostosować.
 
 <img width="1543" height="182" alt="image" src="https://github.com/user-attachments/assets/94ca2b6b-ed41-4b87-92f9-c119bc4273a2" />
-
 
 Po zlokalizowaniu wybranej funkcji dokonujemy jej modyfikacji w moim przypadku będzie to Online Mode, a następnie restartujemy serwer w celu zastosowania zmian.
 
