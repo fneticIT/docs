@@ -1,5 +1,5 @@
 ---
-title: INSTALACJA PLUGINÓW
+title: PRZENOSZENIE PLIKÓW OD POPRZEDNIEGO DOSTAWCY USŁUG
 icon: stack
 ---
 
