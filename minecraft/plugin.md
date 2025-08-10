@@ -5,7 +5,7 @@ icon: stack
 
 Chcesz zagrać ze znajomymi na serwerze z pluginami? Dzięki naszemu rozwiązaniu możesz w prosty i szybki sposób uruchomić serwer z wybranymi pluginami, bez zbędnych komplikacji.
 
-## JAK ZAINSTALOWAĆ PLUGIN NA SEERWERZE?
+## JAK ZAINSTALOWAĆ PLUGIN NA SERWERZE?
 Instalację można przeprowadzić za pomocą wbudowanego instalatora wtyczek.
 W tym celu należy zalogować się do panelu zarządzania serwerem pod adresem https://ptero.fnetic.pl/ i wybrać serwer, na którym chcemy zainstalować wybrany dodatek.
 
@@ -16,13 +16,13 @@ W naszym przykładzie będzie to ```LuckPerms``` – plugin umożliwiający zarz
 
 <img width="540" height="304" alt="Zrzut ekranu 2025-08-10 171147" src="https://github.com/user-attachments/assets/b666c682-9a29-46a3-99c5-23502e1643b4" /><br>
 
-Po wybraniu wtyczki klikamy przycisk ```Select Version```.
+Po wybraniu wtyczki klikamy przycisk [!button variant="base" text="Select Version"].
 W wyświetlonym oknie z rozwijanej listy wybieramy odpowiednią wersję pluginu, a następnie klikamy
 [!button variant="base" text="Install"], aby rozpocząć instalację.
 
 <img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/df409f1d-692e-42b0-933f-57a9b8e56fcb" /><br>
 
-Po wybraniu przycisku Install i zakończeniu procesu instalacyjnego restartujemy serwer – i gotowe, wtyczka jest już zainstalowana.
+Po wybraniu przycisku [!button variant="base" text="Install"] i zakończeniu procesu instalacyjnego restartujemy serwer – i gotowe, wtyczka jest już zainstalowana.
 
 !!!success Gratulację!
 Plugin został pomyślnie zainstalowany. Teraz możesz w pełni korzystać z jego funkcjonalności na swoim serwerze.
