@@ -1,6 +1,6 @@
 ---
 title: ROZDZIELANIE ZASOBÓW
-icon: stack
+icon: rows
 ---
 
 Jeśli prowadzisz własne studio, jesteś deweloperem albo po prostu chcesz udostępnić koledze serwer bez dawania mu dostępu do całego konta hostingowego, skorzystaj z funkcji przydzielania zasobów w naszym panelu.
@@ -14,7 +14,7 @@ Wpierw należy przejść pod adres https://ptero.fnetic.pl/ a następnie wybrać
 
 Skoro wybraliśmy już usługę dla, której będziemy rozdzielać zasoby przechodzimy do zakładki ```Splitter```.
 
-<img width="1593" height="511" alt="image" src="https://github.com/user-attachments/assets/3566d6e3-b485-4bfd-9b8e-84ee44e950f9" /><br>
+<img width="1593" height="511" alt="image" src="https://github.com/user-attachments/assets/f00e4421-0f83-420d-a4ba-b8a31bbfdc45" /><br>
 
 Jeśli funkcja Splitter jest dostępna, poniżej pojawi się ikona „+” umożliwiająca rozdzielenie zasobów.
 Klikamy ją, a następnie wyświetli się okno konfiguracji
