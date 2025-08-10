@@ -1,5 +1,5 @@
 ---
-title: PRZENOSZENIE PLIKÓW OD POPRZEDNIEGO DOSTAWCY USŁUG
+title: IMPORT PLIKÓW NA NOWY HOSTING
 icon: arrow-switch
 ---
 
