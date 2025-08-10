@@ -9,5 +9,7 @@ Po aktywacji usługi przechodzimy na stronę https://ptero.fnetic.pl/ i z listy 
 
 Następnie otwieramy zakładkę ```Properties``` i w polu wyszukiwania wpisujemy nazwę funkcji, którą chcemy dostosować.
 
+Po zlokalizowaniu wybranej funkcji dokonujemy jej modyfikacji, a następnie restartujemy serwer w celu zastosowania zmian.
+
 > [!SUCCESS]
 > Gotowe! Udało Ci się poprawnie skonfigurować swój serwer.
