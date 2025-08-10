@@ -2,8 +2,11 @@
 title: REINSTALACJA SERWERA
 icon: delete_sweep
 ---
-
+!!!danger
 W przypadku wprowadzenia niepożądanych zmian lub konieczności przywrócenia serwera do stanu początkowego, możesz skorzystać z wbudowanej funkcji reinstalacji, która umożliwia wykonanie tego procesu kilkoma kliknięciami.
+!!!
+
+Przeprowadzenie reinstalacji spowoduje usunięcie wszystkich plików i danych z serwera, w tym zapisanych konfiguracji oraz zainstalowanych modyfikacji. Proces jest nieodwracalny — przed kontynuowaniem upewnij się, że wykonałeś pełną kopię zapasową.
 
 ## JAK WYKONAĆ REINSTALACJĘ SWOJEGO SERWERA?
 
