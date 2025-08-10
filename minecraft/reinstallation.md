@@ -11,7 +11,7 @@ Przeprowadzenie reinstalacji nie stanowi żadnego problemu — wystarczy przejś
 
 <img width="733" height="301" alt="image" src="https://github.com/user-attachments/assets/9ce6dc1e-aa95-41f0-8111-42712d0509f7" /><br>
 
-Po wybraniu interesującego nas serwera przechodzimy do zakładki „Ustawienia”, a następnie w prawym dolnym rogu klikamy przycisk
+Po wybraniu interesującego nas serwera przechodzimy do zakładki ```Ustawienia```, a następnie w prawym dolnym rogu klikamy przycisk
 [!button variant="danger" text="Przeinstaluj serwer"].
 
 <img width="1565" height="900" alt="image" src="https://github.com/user-attachments/assets/e32e89b8-177d-47e3-800f-71f44d274aae" /><br>
