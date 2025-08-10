@@ -27,3 +27,7 @@ Po wypełnieniu wszystkich wymaganych pól klikamy przycisk
 [!button variant="base" text="Connect"].
 Pliki zostaną przeniesione na nowy serwer, po czym wystarczy go ponownie uruchomić i kontynuować rozwój swojego projektu.
 
+!!!success Gratulację!
+Wszystkie pliki od poprzedniego dostawcy hostingu zostały już przeniesione do FNETIC.CLOUD.
+!!!
+
