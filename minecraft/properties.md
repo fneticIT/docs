@@ -1,6 +1,6 @@
 ---
 title: KONFIGURACJA USTAWIEŃ SERWERA
-icon: settings
+icon: sliders
 ---
 
 Koniec z uciążliwą konfiguracją pliku ```server.properties``` – dzięki naszym specjalistom nie musisz już każdorazowo przechodzić do katalogu, otwierać pliku, wprowadzać zmian i zapisywać. Teraz wszystkie ustawienia serwera możesz szybko i wygodnie edytować w przejrzystym interfejsie użytkownika – bez zbędnej straty czasu.
