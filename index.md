@@ -1,3 +1,7 @@
+---
+title: Rozpocznij!
+icon: home
+---
 **Z NAMI ZAWSZE W DOBRYM KIERUNKU!**
 
 # FNETIC.CLOUD - BAZA WIEDZY
