@@ -22,5 +22,9 @@ Po wyświetleniu okna tworzenia subdomeny należy wypełnić wszystkie pola odpo
 <img width="1442" height="617" alt="image" src="https://github.com/user-attachments/assets/84e1544a-927b-42fd-8534-d477417d73dc" />
 
 ```Subdomain``` - tutaj podajemy nazwę za pomocą której będziemy się łączyć z naszym serwerem przykładowo FNETIC.
+
 ```Select a domain``` - z dostępnej listy wybieramy preferowaną subdomenę. 
+
 ```Select an allocation``` - z listy rozwijanej wybieramy odpowiednią alokację spośród dostępnych.
+
+Po skonfigurowaniu powyższych danych naciskamy [!button variant="base" text="Create subdomain"]
