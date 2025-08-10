@@ -10,7 +10,9 @@ Dodanie ikony serwera Minecraft to łatwy i skuteczny sposób na jego personaliz
 Na początku należy przygotować sobie ikonę o wymaganiach:
 
 Rozmiar: 64x64 piksele
+
 Format: PNG
+
 Nazwa pliku: server-icon.png
 
 !!!warning UWAGA
