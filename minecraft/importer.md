@@ -1,6 +1,6 @@
 ---
 title: PRZENOSZENIE PLIKÓW OD POPRZEDNIEGO DOSTAWCY USŁUG
-icon: stack
+icon: arrow-switch
 ---
 
 Posiadasz serwer u innego dostawcy hostingu i nie chcesz tracić czasu na ręczne przenoszenie plików?
