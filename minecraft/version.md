@@ -32,4 +32,6 @@ Zachęcamy do zapoznania się z pełną listą dostępnych wersji gry przed podj
 Po wybraniu wersji przeznaczonej do instalacji zaznaczamy opcję w sekcji „Danger zone”, potwierdzając zgodę na usunięcie wszystkich dotychczasowych plików serwera i instalację nowej wersji.
 Następnie klikamy [!button variant="base" text="Install"] – i gotowe.
 
-
+!!!success Gratulację!
+Nowa wersja gry została pomyślnie zainstalowana na Twoim serwerze Minecraft.
+!!!
