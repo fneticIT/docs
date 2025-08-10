@@ -27,7 +27,7 @@ Po wyświetleniu okna tworzenia subdomeny należy wypełnić wszystkie pola odpo
 
 ```Select an allocation``` - z listy rozwijanej wybieramy odpowiednią alokację spośród dostępnych.
 
-Po skonfigurowaniu powyższych danych naciskamy [!button variant="base" text="Create subdomain"]
+Po skonfigurowaniu powyższych danych naciskamy [!button variant="base" text="Create subdomain"].
 
 !!!success Gratulację!
 Subdomena została pomyślnie utworzona. Od teraz możesz korzystać z przyjaznego adresu, aby łączyć się ze swoim serwerem.
